@@ -56,6 +56,7 @@ const switchTab = (id) => {
 
 const createPost = (post) => {
   const image = post.image;
+  // Post Administrator Images
   const userImage = post.userImage;
   const div = document.createElement("article");
   div.classList.add("post");
